@@ -1,0 +1,167 @@
+    /* Mobile */
+    
+    @media only screen and (max-width: 46.1875em) {
+        ul.navbar-responsive {
+            padding-top: 15px;
+            position: absolute;
+            background: #f8f9fa;
+            left: 0px;
+            width: 100%;
+            top: 185px;
+            z-index: 1;
+            padding-bottom: 20px;
+            display: none;
+        }
+        .column {
+            width: 100%;
+        }
+        #backtop {
+            display: none !important;
+        }
+    }
+    /* Tablet: width >= 740px and width < 1024px */
+    
+    @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+        #features .item {
+            min-height: 400px;
+        }
+    }
+    /* Ipad  */
+    
+    @media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+        #icon-menu-responsive {
+            top: 200px;
+        }
+        ul.navbar-responsive {
+            padding-top: 15px;
+            position: absolute;
+            background: #f8f9fa;
+            left: 0px;
+            width: 100%;
+            top: 240px;
+            z-index: 1;
+            padding-bottom: 20px;
+            display: none;
+        }
+        .column {
+            width: 100%;
+        }
+        #banner .banner_right {
+            display: none;
+        }
+    }
+    
+    @media only screen and (max-width: 63.9375em) {
+        #header_container nav.navbar {
+            margin-right: 0;
+            flex-direction: column;
+        }
+    }
+    /* PC: width >= 1024px */
+    
+    @media only screen and (min-width: 64em) {
+        .container {
+            max-width: 1170px;
+        }
+        .owl-nav {
+            display: block;
+        }
+        #achievement .item {
+            padding-top: 30px;
+        }
+        #achievement .testimonial .owl-dots {
+            text-align: left;
+        }
+        #achievement .item {
+            padding-top: 30px;
+            min-height: 245px;
+        }
+        #features .header_title h1 {
+            margin-right: 750px;
+        }
+        #achievement .header_title h1 {
+            margin-right: 350px;
+        }
+        #onsale .header_title h1,
+        #blogs .header_title h1 {
+            margin-right: 65%;
+        }
+        .owl-four .item {
+            padding: 0 15px 0 0;
+        }
+        #blogs .blog_product img {
+            margin-right: 20px;
+        }
+        #blogs .blog_cart {
+            text-align: left;
+        }
+        #blogs .blog_product img {
+            margin: 0;
+        }
+        #newsletter .newsletter_contact {
+            flex-basis: 59%;
+        }
+        #newsletter .comming_soon {
+            flex-basis: 41%;
+            margin-right: auto;
+            display: block;
+        }
+        #newsletter .newsletter_contact p {
+            font-style: italic;
+            color: #4c4b6c;
+            padding: 0;
+        }
+        #footer-item .footer_instagram h3 {
+            padding-left: 8px;
+        }
+        #blogs .blog_product:hover .blog_cart a.read_more {
+            display: block;
+        }
+        .owl-four .item {
+            padding: 0 15px 0 0;
+        }
+        #header_nav_bottom .navbar-cart a {
+            padding: 10px 15px;
+            margin-right: 5px;
+        }
+        #features {
+            padding-top: 88px;
+        }
+        #features .item {
+            transition: transform .2s;
+            min-height: 280px;
+            padding: 0 15px 0 0;
+        }
+        .direct {
+            display: none;
+            animation: headernotifygrowth ease-in-out .2s;
+        }
+        #features .item:hover .direct {
+            display: block;
+        }
+        #onsale .item:hover .direct {
+            display: block;
+        }
+        #achievement .sellers_thumb:hover .direct {
+            display: block;
+        }
+        #newsletter button {
+            position: absolute;
+            height: 50px;
+            padding: 0;
+            margin: 0;
+            color: #fff;
+            background: #4c4b6c;
+            border-radius: 20px;
+            width: 25%;
+            right: 8px;
+            top: 6px;
+        }
+        #achievement .item {
+            padding-top: 30px;
+            min-height: 342px;
+        }
+        #footer {
+            margin-top: 120px;
+        }
+    }
